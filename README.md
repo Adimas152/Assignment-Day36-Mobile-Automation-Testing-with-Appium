@@ -58,3 +58,24 @@ Fokus utama pengujian adalah **automatisasi proses login** dan **menambahkan sat
     - Klik salah satu produk
     - Klik tombol **Add to Cart**
     - Validasi produk berhasil masuk ke cart (cart badge / counter muncul)
+
+## ▶️ Setup & Run Instruction
+
+1. **Prerequisite**
+    - Java JDK terpasang
+    - Android Emulator aktif
+    - Appium Server berjalan di `http://127.0.0.1:4723`
+    - Aplikasi demo sudah ter-install di emulator
+
+2. **Clone Repository**
+   ```bash
+   git clone https://github.com/Adimas152/Assignment-Day36-Mobile-Automation-Testing-with-Appium.git
+   cd Assignment-Day36-Mobile-Automation-Testing-with-Appium
+
+3. **Setup Project**
+    - Pastikan file demo.apk berada di folder /apk
+    - Pastikan konfigurasi device & app sudah sesuai di DriverManager.java
+   
+4. **Run Automation Test**
+   ```bash
+   ./gradlew clean test
